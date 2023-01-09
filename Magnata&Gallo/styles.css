@@ -1,0 +1,131 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color:  black;
+    color: beige;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS';
+}
+
+.main-content img{
+    width:40vh ;
+    height:40vh;
+}
+header img{
+    padding-top: 30px;
+    padding-bottom: 20px;
+   max-width:auto;
+   max-height:auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+nav ul{
+    text-align: center;
+    margin-left:auto;
+    margin-right: auto;
+}
+nav ul li{
+    text-align: center;
+    margin-right: 50px;
+    display: inline;
+}
+footer{ 
+   
+    display: inline;
+}
+footer .footer-img img{
+    margin-top: 30px;
+    margin-left:50px;
+    margin-bottom: 20px;
+    width: 20%;
+    height: auto;
+    align-items: left;
+}
+footer .footer-text{
+    color: rgb(196, 196, 196);
+    text-align: right;
+    font-size:15px;
+    margin-right:70px;
+    margin-top: -55px;
+}
+main{
+    background-color: rgb(19, 19, 19);
+}
+.promotion img{
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+    
+}
+.main-content{
+text-align: center;
+padding:2rem;
+margin: 1px 1px;
+}
+.info-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.info{
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    border:1px solid beige;
+    display: inline-block;
+    word-spacing: 10%;
+    
+}
+.info p{
+    text-align: justify;
+    margin: 15px 15px;
+    width: fit-content;
+}
+.info img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+a{
+    color: rgb(235, 235, 235);
+    font-family: Georgia, Times, serif;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-size: large;
+
+}
+a:hover{
+    color: #fdc5c5;
+    cursor: pointer;
+    text-shadow: 0 0 30px rgb(214, 214, 174),
+    0 0 30px rgb(196, 196, 196) ;
+}
+.shadow-box{
+    margin:20px auto;
+    border: 1px solid #f8a3a3;
+  padding: 10px;
+  width: 40em;
+  box-shadow: 0px 0px 10px 5px #f8a3a3;
+}
+.promotion-text{
+    position: relative;
+    text-align: center;
+    text-shadow: 0 0 30px rgb(214, 214, 174),
+    0 0 30px rgb(196, 196, 196) ;
+    font-size: 1.8rem;
+    margin-top: 10px;
+    font-family:garamond;
+    
+}
+.promotion{
+    background-color: black;
+}
+.promotion-text-sm{
+    margin-top: 12px;
+    margin-bottom: 7px;
+    font-family: garamond;
+    color: rgb(175, 175, 175);
+    text-align: center;
+    text-shadow: 0 0 30px rgb(255, 255, 255),
+    0 0 30px whitesmoke ;
+}
